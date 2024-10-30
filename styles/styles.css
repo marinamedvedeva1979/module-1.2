@@ -1,18 +1,38 @@
 body {
-    font-family: "Raleway", sans-serif;
-
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+     color:#121212;
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 60px;
     line-height: 60px;
-    font-weight: 700;
-    text-align: center;
+    text-align: left;
 
-    color:red;
+   
+
 }
 p {
     font-size: 20px;
-    line-height: 32px;
     font-weight: 400;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: blueviolet;
+}
+h5 {
+   
+font-size: 18px;
+line-height: 24.59px;
+letter-spacing: -0.03em;
+text-align: left;
+}
+h2 {
+    font-size: 45px;
+    line-height: 61.47px;
+    letter-spacing: -0.03em;
+    text-align: left;
+
 }
