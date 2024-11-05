@@ -10,7 +10,7 @@ h1 {
     font-size: 60px;
     line-height: 60px;
     text-align: left;
-
+color: black;
    
 
 }
@@ -18,6 +18,8 @@ p {
     text-align: left;
     font-size: 20px;
     line-height: 27.32px;
+    width: 430px;
+    height: 81px;
 }
 
 h5 {
@@ -35,13 +37,15 @@ h2 {
 }
 .image1 {
 width: 1150px;
-height: 500px;
+height: 410px;
+top: 277px;
+left: 125px;
 
-background-image: url('../resorces/.image1.png');
-background-size:contein;
+background-image: url('../resoures/image1.png');
+background-size:cover;
 background-repeat: no-repeat;
 
-padding-top: 657px;
+padding-top: 566px;
 padding-left: 165px;
 }
 .text1 {
