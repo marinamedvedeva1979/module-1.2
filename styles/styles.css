@@ -22,18 +22,22 @@ p {
     height: 81px;
 }
 
-h5 {
+h4 {
    
 font-size: 18px;
 line-height: 24.59px;
 letter-spacing: -0.03em;
 text-align: left;
+color: black;
 }
 h2 {
     font-size: 45px;
     line-height: 61.47px;
-    letter-spacing: -0.03em;
     text-align: left;
+    width: 1051px;
+    height: 518px;
+
+  
 }
 .image1 {
 width: 1150px;
