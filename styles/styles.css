@@ -60,7 +60,7 @@ padding-left: 165px;
     
 }
 .btn {
-
+    display: block;
    border-bottom: #121212;
     text-align: center;
     text-decoration: none;
