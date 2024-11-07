@@ -36,6 +36,7 @@ h2 {
     text-align: left;
     width: 1051px;
     height: 518px;
+    margin-top: 50px;
 
   
 }
@@ -54,22 +55,29 @@ padding-top: 566px;
 padding-left: 165px;
 }
 .text1 {
-    color: blueviolet;
+    color: white;
     text-align: left;
     
 }
-a {
-    display: block;
-    width: 300px;
-    height: 50px;
-    border: 1px solid=red;
-    text-align: center;
-    line-height: 50px;
-    text-decoration: none;
-    color: chartreuse;
+.btn {
 
-}
-a:hover {
+   border-bottom: #121212;
+    text-align: center;
+    text-decoration: none;
     color: white;
-    background-color: blueviolet;
+
+    width:255px;
+    height:67px;
+    top: 1379px;
+    left: 125px;
+    padding: 20px 40px 20px 40px;
+    gap: 10px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #AD1818;
+    cursor: pointer;
+}
+.btn:hover {
+    color: white;
+    background-color: black;
 }
