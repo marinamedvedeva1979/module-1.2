@@ -7,32 +7,29 @@ body {
 }
 
 h1 {
+  text-align: left;
   width: 1150px;
+  margin: 0 auto 30px;
   font-size: 60px;
   line-height: 60px;
-  text-align: left;
   color: black;
-  margin: 0 auto 30px;
 }
 
 .image1 {
   width: 1150px;
   height: 410px;
+  margin: 0px auto 150px;
+  padding-top: 566px;
+  padding-left: 65px;
   /*top: 277px;
     left: 125px;*/
-
-  margin: 0px auto 150px;
-
   background-image: url("../resoures/image1.png");
   background-size: cover;
   background-repeat: no-repeat;
-
-  padding-top: 566px;
-  padding-left: 65px;
 }
 .text1 {
-  color: white;
   text-align: left;
+  color: white;
 }
 
 p {
@@ -45,44 +42,42 @@ p {
 }
 
 h4 {
+  text-align: left;
   width: 1051px;
+  margin: 0 auto 30px 132px;
   font-size: 18px;
   line-height: 24.59px;
   letter-spacing: -0.03em;
-  text-align: left;
   color: black;
-
-  margin: 0 auto 30px 132px;
 }
 h2 {
-  font-size: 45px;
-  line-height: 61.47px;
   text-align: left;
-
   /*width: 1051px;*/
   height: 418px;
   margin: 0 auto 30px 132px;
+  font-size: 45px;
+  line-height: 61.47px;
 }
 
 .btn {
   display: block;
-  border-bottom: #121212;
   text-align: center;
-  text-decoration: none;
-  color: white;
-
   width: 300px;
   height: 67px;
   top: 277px;
   left: 125px;
   padding: 20px 40px 20px 40px;
-  gap: 10px;
+  margin: 0 auto 0 132px;
+
+  border-bottom: #121212;
   border-radius: 5px 5px 5px 5px;
+  font-size: 20px;
+  text-decoration: none;
+  gap: 10px;
+  color: white;
   opacity: 0px;
   background-color: #ad1818;
   cursor: pointer;
-  font-size: 20px;
-  margin: 0 auto 0 132px;
 }
 .btn:hover {
   color: white;
