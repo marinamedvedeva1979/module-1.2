@@ -4,71 +4,83 @@ body {
   font-weight: 400;
   font-style: normal;
      color:#121212;
+
 }
 
 h1 {
+    width: 1150px;
     font-size: 60px;
     line-height: 60px;
     text-align: left;
-color: black;
-   
-
+    color: black;
+    margin: 0 auto 30px;
 }
+
+.image1 {
+    width: 1150px;
+    height: 410px;
+    /*top: 277px;
+    left: 125px;*/
+
+    margin: 0px auto 150px;
+
+    
+    
+    background-image: url('../resoures/image1.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    padding-top: 566px;
+    padding-left: 65px;
+    }
+    .text1 {
+        color: white;
+        text-align: left;
+        
+    }
+
+
 p {
     text-align: left;
     font-size: 20px;
     line-height: 27.32px;
     width: 430px;
     height: 81px;
+    margin-top: 100px;
 }
 
 h4 {
-   
+width: 1051px;
 font-size: 18px;
 line-height: 24.59px;
 letter-spacing: -0.03em;
 text-align: left;
 color: black;
+
+margin: 0 auto 30px 132px;
 }
 h2 {
     font-size: 45px;
     line-height: 61.47px;
     text-align: left;
+
     width: 1051px;
-    height: 518px;
-    margin-top: 50px;
+    height: 418px;
+    margin: 0 auto 30px 132px;
 
   
 }
-.image1 {
-width: 1150px;
-height: 410px;
-top: 277px;
-left: 125px;
-margin-bottom: 200px;
 
-background-image: url('../resoures/image1.png');
-background-size:cover;
-background-repeat: no-repeat;
-
-padding-top: 566px;
-padding-left: 165px;
-}
-.text1 {
-    color: white;
-    text-align: left;
-    
-}
 .btn {
     display: block;
-   border-bottom: #121212;
+    border-bottom: #121212;
     text-align: center;
     text-decoration: none;
     color: white;
 
-    width:255px;
+    width: 300px;
     height:67px;
-    top: 1379px;
+    top: 277px;
     left: 125px;
     padding: 20px 40px 20px 40px;
     gap: 10px;
@@ -76,6 +88,8 @@ padding-left: 165px;
     opacity: 0px;
     background-color: #AD1818;
     cursor: pointer;
+    font-size: 20px;
+    margin: 0 auto 0 132px;
 }
 .btn:hover {
     color: white;
