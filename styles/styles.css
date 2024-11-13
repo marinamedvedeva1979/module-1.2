@@ -43,7 +43,7 @@ p {
 
 h4 {
   text-align: left;
-  width: 1051px;
+  /*width: 1051px;*/
   margin: 0 auto 30px 132px;
   font-size: 18px;
   line-height: 24.59px;
@@ -52,8 +52,8 @@ h4 {
 }
 h2 {
   text-align: left;
-  /*width: 1051px;*/
-  height: 418px;
+  /*width: 1048px;*/
+  height: 366px;
   margin: 0 auto 30px 132px;
   font-size: 45px;
   line-height: 61.47px;
@@ -62,7 +62,7 @@ h2 {
 .btn {
   display: block;
   text-align: center;
-  width: 300px;
+  width: 255px;
   height: 67px;
   top: 277px;
   left: 125px;
@@ -71,6 +71,7 @@ h2 {
 
   border-bottom: #121212;
   border-radius: 5px 5px 5px 5px;
+
   font-size: 20px;
   text-decoration: none;
   gap: 10px;
