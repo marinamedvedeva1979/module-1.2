@@ -87,3 +87,27 @@ p.discription {
   color: white;
   background-color: black;
 }
+h2.title-projects {
+  text-align: left;
+  margin-top: 150px;
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  color: black;
+}
+.projects-item__img {
+  margin-top: 30px;
+}
+h3.projects-item__title {
+  margin-top: 30px;
+  font-size: 30px;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+}
+a.projects-item__link {
+  color: #ad1818;
+  font-size: 20px;
+  line-height: 27.32px;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+}
