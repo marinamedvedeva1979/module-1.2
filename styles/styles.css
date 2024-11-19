@@ -7,7 +7,10 @@ body {
   color: #121212;
   background: #f5f5f5;
 }
-
+.section {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 .container {
   max-width: 1180px;
   margin: 0 auto;
@@ -71,7 +74,7 @@ p.discription {
   left: 125px;
   padding: 20px 40px;
   margin-top: 30px;
-  letter: -3%;
+  letter-spacing: -0.03em;
 
   border-radius: 5px;
 
@@ -117,8 +120,7 @@ a.projects-item__link {
 .all-projects {
   width: 100%;
   height: 153px;
-  /*top: 3565px;
-  left: 125px;*/
+
   gap: 0px;
   border-radius: 5px;
   border: 1px solid #ad1818;
@@ -137,4 +139,48 @@ a.projects-item__link {
 .all-projects:hover {
   color: #ffffff;
   background-color: #ad1818;
+}
+.services {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 1844px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.container__black {
+  max-width: 1180px;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-top: 30px;
+  box-sizing: border-box;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+h2.title-projects__services {
+  padding-top: 200px;
+  padding-left: 15px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 24.59px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+.services-item__image {
+  width: 1150px;
+  height: 270px;
+  margin-top: 30px;
+
+  gap: 0px;
+  opacity: 0px;
+}
+h3.services-item__title {
+  margin-top: 15px;
+  margin-left: 15px;
+  text-align: left;
+  font-size: 30px;
+  line-height: 40.98px;
+  letter-spacing: -0.03em;
+  text-decoration-skip-ink: none;
 }
