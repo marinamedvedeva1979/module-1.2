@@ -10,15 +10,21 @@ body {
 .section {
   max-width: 1400px;
   margin: 0 auto;
+  color: #ffffff;
 }
 .container {
-  max-width: 1180px;
+  max-width: 1400px;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 0 15px;
+  padding: 0 125px;
   background: #ffffff;
 }
-
+#container_interior {
+  padding-top: 30px;
+}
+#container_about {
+  padding-top: 1px;
+}
 h1 {
   text-align: left;
   width: 956px;
@@ -90,6 +96,10 @@ p.discription {
   color: white;
   background-color: black;
 }
+#container_projects {
+  padding-top: 1px;
+  padding-bottom: 150px;
+}
 h2.title-projects {
   text-align: left;
   margin-top: 150px;
@@ -149,13 +159,16 @@ a.projects-item__link {
 }
 
 .container__black {
-  max-width: 1180px;
-  padding: 0 15px;
+  max-width: 1400px;
+  padding: 1px 125px;
   margin: 0 auto;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   box-sizing: border-box;
   background-color: #121212;
   color: #ffffff;
+}
+#container_services {
+  padding-top: 1px;
 }
 
 h2.title-projects__services {
