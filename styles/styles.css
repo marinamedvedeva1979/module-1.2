@@ -36,17 +36,21 @@ h1 {
 }
 
 .image1 {
+  position: relative;
   width: 1150px;
   height: 500px;
   margin-top: 30px;
-  padding-top: 379px;
-  padding-left: 40px;
+  /* padding-top: 379px;
+  padding-left: 40px;*/
   background-image: url("../resoures/image1.png");
   box-sizing: border-box;
   background-size: cover;
   background-repeat: no-repeat;
 }
 p.image1__text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
   width: 430px;
   font-weight: 400;
   font-size: 20px;
