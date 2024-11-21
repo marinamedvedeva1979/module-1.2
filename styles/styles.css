@@ -169,7 +169,7 @@ a.projects-item__link {
 }
 #container_services {
   padding-top: 1px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 h2.title-projects__services {
@@ -198,4 +198,7 @@ h3.services-item__title {
   line-height: 40.98px;
   letter-spacing: -0.03em;
   text-decoration-skip-ink: none;
+}
+h3.services-item__title:nth-last-child(1) {
+  margin-bottom: 0px;
 }
