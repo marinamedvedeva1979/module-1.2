@@ -20,6 +20,13 @@ h2.title-projects__services,
 h3.services-item__title {
   letter-spacing: -0.03em;
 }
+h2.title,
+h2.title-projects,
+h2.title-projects__services {
+  text-align: left;
+  font-size: 18px;
+  line-height: 24.59px;
+}
 
 .section {
   max-width: 1400px;
@@ -74,11 +81,7 @@ p.image1__text {
 }
 
 h2.title {
-  text-align: left;
   margin-top: 150px;
-  font-size: 18px;
-  line-height: 24.59px;
-
   color: black;
 }
 p.discription {
@@ -117,10 +120,7 @@ p.discription {
   padding-bottom: 150px;
 }
 h2.title-projects {
-  text-align: left;
   margin-top: 150px;
-  font-size: 18px;
-  line-height: 24.59px;
 
   color: black;
 }
@@ -189,17 +189,12 @@ a.projects-item__link {
 h2.title-projects__services {
   padding-top: 150px;
   padding-left: 15px;
-  text-align: left;
-  font-size: 18px;
-  line-height: 24.59px;
-
   color: #ffffff;
 }
 .services-item__image {
   width: 1150px;
   height: 270px;
   margin-top: 30px;
-
   gap: 0px;
   opacity: 0px;
 }
@@ -210,7 +205,6 @@ h3.services-item__title {
   text-align: left;
   font-size: 30px;
   line-height: 40.98px;
-
   text-decoration-skip-ink: none;
 }
 h3.services-item__title:nth-last-child(1) {
