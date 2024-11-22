@@ -7,6 +7,20 @@ body {
   color: #121212;
   background: #f5f5f5;
 }
+h1,
+p.image1__text,
+h2.title,
+p.discription,
+.btn,
+h2.title-projects,
+h3.projects-item__title,
+a.projects-item__link,
+.all-projects,
+h2.title-projects__services,
+h3.services-item__title {
+  letter-spacing: -0.03em;
+}
+
 .section {
   max-width: 1400px;
   margin: 0 auto;
@@ -31,7 +45,7 @@ h1 {
   margin-top: 30px;
   font-size: 60px;
   line-height: 60px;
-  letter-spacing: -0.03em;
+
   color: black;
 }
 
@@ -55,7 +69,7 @@ p.image1__text {
   font-weight: 400;
   font-size: 20px;
   line-height: 27px;
-  letter-spacing: -0.03em;
+
   color: white;
 }
 
@@ -64,7 +78,7 @@ h2.title {
   margin-top: 150px;
   font-size: 18px;
   line-height: 24.59px;
-  letter-spacing: -0.03em;
+
   color: black;
 }
 p.discription {
@@ -73,7 +87,6 @@ p.discription {
   margin-top: 30px;
   font-size: 45px;
   line-height: 61px;
-  letter-spacing: -0.03em;
 }
 .btn {
   display: block;
@@ -84,7 +97,6 @@ p.discription {
   left: 125px;
   padding: 20px 40px;
   margin-top: 30px;
-  letter-spacing: -0.03em;
 
   border-radius: 5px;
 
@@ -109,7 +121,7 @@ h2.title-projects {
   margin-top: 150px;
   font-size: 18px;
   line-height: 24.59px;
-  letter-spacing: -0.03em;
+
   color: black;
 }
 .projects-item__img {
@@ -119,13 +131,12 @@ h3.projects-item__title {
   margin-top: 20px;
   font-size: 30px;
   line-height: 40.98px;
-  letter-spacing: -0.03em;
 }
 a.projects-item__link {
   color: #ad1818;
   font-size: 20px;
   line-height: 27.32px;
-  letter-spacing: -0.03em;
+
   text-decoration: none;
 }
 .projects-item {
@@ -142,7 +153,7 @@ a.projects-item__link {
   display: block;
   font-size: 30px;
   line-height: 40.98px;
-  letter-spacing: -0.03em;
+
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -164,10 +175,9 @@ a.projects-item__link {
 
 .container__black {
   max-width: 1400px;
+  box-sizing: border-box;
   padding: 1px 125px;
   margin: 0 auto;
-  /*margin-top: 30px;*/
-  box-sizing: border-box;
   background-color: #121212;
   color: #ffffff;
 }
@@ -182,7 +192,7 @@ h2.title-projects__services {
   text-align: left;
   font-size: 18px;
   line-height: 24.59px;
-  letter-spacing: -0.03em;
+
   color: #ffffff;
 }
 .services-item__image {
@@ -200,7 +210,7 @@ h3.services-item__title {
   text-align: left;
   font-size: 30px;
   line-height: 40.98px;
-  letter-spacing: -0.03em;
+
   text-decoration-skip-ink: none;
 }
 h3.services-item__title:nth-last-child(1) {
