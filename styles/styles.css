@@ -7,22 +7,31 @@ body {
   color: #121212;
   background: #f5f5f5;
 }
+.hero,
+.about,
+.projects {
+  color: #121212;
+  background: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+
 h1.hero__title,
 p.hero__text,
-h2.about__title,
+.about__title,
 p.about__discription,
 a.btn,
-h2.projects__title,
+.projects__title,
 h3.projects-item__title,
 a.projects-item__link,
 .projects__btn,
-h2.services-item__title,
+services__title,
 h3.services-item__title {
   letter-spacing: -0.03em;
 }
-h2.about__title,
-h2.projects__title,
-h2.services-item__title {
+.about__title,
+.projects__title,
+services__title {
   font-size: 18px;
   line-height: 24.59px;
 }
@@ -30,13 +39,11 @@ h2.services-item__title {
 .section {
   max-width: 1400px;
   margin: 0 auto;
-  color: #ffffff;
 }
 .container {
   max-width: 1180px;
   padding: 0 15px;
   margin: 0 auto;
-  background: #ffffff;
 }
 /*#container_interior {
   padding-top: 30px;
@@ -74,9 +81,14 @@ p.hero__text {
 
   color: white;
 }
-
-h2.about__title {
-  margin-top: 150px;
+.h2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.about__title {
+  /*margin-top: 150px;*/
   color: black;
 }
 p.about__discription {
@@ -109,11 +121,9 @@ a.btn:hover {
   color: white;
   background-color: black;
 }
-/*.container_projects {
-  padding-bottom: 150px;
-}*/
-h2.projects__title {
-  margin-top: 150px;
+
+.projects__title {
+  /*margin-top: 150px;*/
 
   color: black;
 }
@@ -121,14 +131,14 @@ h2.projects__title {
   margin-top: 30px;
   height: 450px;
 }
-img.projects-item__image {
+.projects-item__image {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-h3.projects-item__title {
+.projects-item__title {
   margin-top: 20px;
   margin-bottom: 15px;
   font-size: 30px;
@@ -158,46 +168,49 @@ a.projects-item__link {
   background-color: #fff;
   cursor: pointer;
 }
-.all-projects:hover {
+.projects__btn:hover {
   color: #ffffff;
   background-color: #ad1818;
 }
 .services {
+  width: 100%;
   margin-bottom: 150px;
   padding: 151px 0 150px;
   color: #ffffff;
   background-color: #121212;
 }
 
-/*#container_services {
-
-  padding-bottom: 80px;
-}*/
-
-h2.services-item__title {
+services__title {
   padding-top: 150px;
   padding-left: 15px;
   color: #ffffff;
 }
 .services-item__img-wrapper {
   height: 270px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .services-item__image {
+  display: block;
   width: 100%;
   height: 100%;
-  display: block;
+  object-fit: cover;
 }
 
-h3.services-item__title {
+.services-item__title {
   margin-top: 15px;
-  margin-left: 15px;
   padding-bottom: 30px;
 
   font-size: 30px;
   line-height: 40.98px;
   text-decoration-skip-ink: none;
 }
-h3.services-item__title:nth-last-child(1) {
+.services-item__title:nth-last-child(1) {
   margin-bottom: 0px;
+}
+.services-item {
+  padding-top: 60px;
 }
