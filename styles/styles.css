@@ -38,9 +38,58 @@ services__title {
 .hero,
 .about,
 .projects,
-.services {
+.services,
+.nav-section {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.nav-section {
+  min-width: 1180px;
+  background: #ffffff;
+  padding-top: 60px;
+}
+
+.nav-container {
+  max-width: 1180px;
+  padding: 0 15px;
+  margin: 0px auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.nav {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.nav__link {
+  display: inline-block;
+  margin-right: 60px;
+  text-align: center;
+  text-decoration: none;
+  size: 18px;
+  line-height: 24px;
+  color: #121212;
+}
+.nav__link_active {
+  text-decoration: underline;
+  display: inline-block;
+  margin-right: 60px;
+  text-align: center;
+  size: 18px;
+  line-height: 24px;
+  color: #121212;
+}
+
+.logo__link {
+  display: inline-block;
+  margin-right: 500px;
+}
+.logo {
+  display: block;
+  width: 126.89px;
+  height: 21.42px;
 }
 
 .container {
@@ -181,8 +230,8 @@ a.projects-item__link {
 }
 
 .services__title {
-  padding-top: 150px;
-  padding-left: 15px;
+  /*padding-top: 150px;
+  padding-left: 15px;*/
   color: #ffffff;
 }
 .services-item__img-wrapper {
