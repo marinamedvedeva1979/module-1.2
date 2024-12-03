@@ -31,7 +31,8 @@ h3.projects-item__title,
 a.projects-item__link,
 .projects__btn,
 services__title,
-h3.services-item__title {
+h3.services-item__title,
+.apartments__text {
   letter-spacing: -0.03em;
 }
 .about__title,
@@ -269,3 +270,26 @@ a.projects-item__link {
 .services-item {
   padding-top: 60px;
 }
+.apartments {
+  height: 717px;
+  background-image: url("/resourсes/apartment_project.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.apartments__image {
+  position: relative;
+  width: 100%;
+  height: 717px;
+}
+.apartments__text {
+  position: absolute;
+  left: 125px;
+  bottom: 60px;
+  font-size: 30px;
+  line-height: 40.98px;
+  color: #ffffff;
+}
+/*.apartments__container {
+  height: 717px;
+}*/
