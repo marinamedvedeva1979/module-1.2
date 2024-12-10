@@ -320,7 +320,7 @@ a.projects-item__link {
   padding-top: 60px;
 }
 .apartments {
-  background-image: url("/resourсes/apartment_project.jpg");
+  background-image: url("../resourсes/apartment_project.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
