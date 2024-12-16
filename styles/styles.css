@@ -32,12 +32,14 @@ a.projects-item__link,
 .projects__btn,
 services__title,
 h3.services-item__title,
-.apartments__text {
+.apartments__text,
+.footer-menu__link {
   letter-spacing: -0.03em;
 }
 .about__title,
 .projects__title,
-.services__title {
+.services__title,
+.contacts__title {
   font-size: 18px;
   line-height: 24.59px;
 }
@@ -46,7 +48,9 @@ h3.services-item__title,
 .projects,
 .services,
 .header,
-.contacts {
+.apartments,
+.contacts,
+.footer {
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -277,6 +281,7 @@ a.projects-item__link {
   color: #ffffff;
   background-color: #ad1818;
 }
+/* @section services */
 .services {
   width: 100%;
   margin-bottom: 150px;
@@ -319,11 +324,13 @@ a.projects-item__link {
 .services-item {
   padding-top: 60px;
 }
+/* @section apartments */
 .apartments {
+  height: 717px;
   background-image: url("../resourсes/apartment_project.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 50%;
 }
 .apartments__image {
   position: relative;
@@ -378,5 +385,53 @@ a.projects-item__link {
   color: #121212;
 }
 .contacts__link:hover {
+  opacity: 50%;
+}
+/*@footer*/
+
+.footer {
+  background: #121212;
+  height: 229px;
+}
+.footer-container {
+}
+
+.footer-nav-container {
+  width: 600px;
+  height: 25px;
+  position: relative;
+  padding-top: 60px;
+  padding-left: 470px;
+}
+.footer-nav-container::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -120px;
+  right: 180px;
+  width: 329px;
+  height: 27px;
+  size: 20px;
+  background-image: url("/resourсes/studia_metrica.png");
+  background-repeat: no-repeat;
+}
+
+.footer-menu__item {
+  vertical-align: top;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.footer-menu__link {
+  display: inline-block;
+  margin-right: 60px;
+  color: #ffffff;
+  line-height: 25px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footer-menu__link:hover {
   opacity: 50%;
 }
