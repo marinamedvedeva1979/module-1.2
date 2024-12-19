@@ -363,7 +363,7 @@ a.projects-item__link {
   top: -60px;
   width: 24px;
   height: 24px;
-  background-image: url("/resourсes/icon_phone.png");
+  background-image: url("../resourсes/icon_phone.png");
   background-repeat: no-repeat;
 }
 .contacts__list {
@@ -412,7 +412,7 @@ a.projects-item__link {
   width: 329px;
   height: 27px;
   size: 20px;
-  background-image: url("/resourсes/studia_metrica.png");
+  background-image: url("../resourсes/studia_metrica.png");
   background-repeat: no-repeat;
 }
 
