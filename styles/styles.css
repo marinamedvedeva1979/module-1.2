@@ -156,14 +156,14 @@ h3.services-item__title,
 }
 
 .container {
-  max-width: 1180px;
+  max-width: 1150px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 h1.hero__title {
   width: 956px;
-  margin-top: 30px;
+  margin-top: 10px;
   font-size: 60px;
   line-height: 60px;
 
@@ -205,12 +205,13 @@ p.about__discription {
   margin-top: 30px;
   font-size: 45px;
   line-height: 61px;
+  text-align: left;
 }
 a.btn {
   display: block;
   text-align: center;
-  width: 300px;
-  /*height: 67px;
+  width: 176px;
+  /*height: 30px;
   top: 277px;
   left: 125px;*/
   padding: 20px 40px;
