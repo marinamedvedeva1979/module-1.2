@@ -33,7 +33,8 @@ a.projects-item__link,
 .services__title,
 h3.services-item__title,
 .apartments__text,
-.contacts__link,
+.contacts__phone,
+.contacts__email,
 .footer-menu__link {
   letter-spacing: -0.03em;
 }
@@ -44,12 +45,13 @@ h3.services-item__title,
   font-size: 18px;
   line-height: 24.59px;
 }
+
 .hero,
 .about,
 .projects,
-.services,
+/*.services,
 .header,
-.apartments,
+/*.apartments,*/
 .contacts,
 .footer {
   max-width: 1400px;
@@ -273,15 +275,13 @@ a.projects-item__link {
 /* @section services */
 .services {
   width: 100%;
-  /*margin-bottom: 150px;*/
+
   padding: 151px 0 150px;
   color: #ffffff;
   background-color: #121212;
 }
 
 .services__title {
-  /*padding-top: 150px;
-  padding-left: 15px;*/
   color: #ffffff;
 }
 .services-item__img-wrapper {
@@ -317,15 +317,17 @@ a.projects-item__link {
 /* @section apartments */
 .apartments {
   height: 717px;
+  width: 100%;
+  position: relative;
   background-image: url("../resourсes/apartment_project.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
 }
-.apartments__image {
-  position: relative;
+/*.apartments__image {
+ position: relative;
   height: 717px;
-}
+}*/
 .apartments__text {
   width: 443px;
   position: absolute;
@@ -362,7 +364,7 @@ a.projects-item__link {
 .contacts__item {
   margin-top: 30px;
 }
-.contacts__link {
+.contacts__phone {
   font-size: 60px;
   font-weight: 400;
   line-height: 60px;
@@ -370,16 +372,26 @@ a.projects-item__link {
   text-decoration: none;
   color: #121212;
 }
-.contacts__link:hover {
+.contacts__email {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 60px;
+  text-align: left;
+  text-decoration: none;
+  color: #121212;
   opacity: 50%;
 }
+
+.contacts__phone:hover,
+.contacts__email:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+
 /*@footer*/
 
 .footer {
   background: #121212;
   height: 229px;
-}
-.footer-container {
 }
 
 .footer-nav-container {
