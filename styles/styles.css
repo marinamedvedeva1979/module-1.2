@@ -30,9 +30,10 @@ a.btn,
 h3.projects-item__title,
 a.projects-item__link,
 .projects__btn,
-services__title,
+.services__title,
 h3.services-item__title,
 .apartments__text,
+.contacts__link,
 .footer-menu__link {
   letter-spacing: -0.03em;
 }
@@ -337,11 +338,7 @@ a.projects-item__link {
   padding-top: 150px;
   padding-bottom: 110px;
 }
-/*.container-contacts {
-  width: 473px;
-  height: 217px;
-  padding-left: 124px;
-}*/
+
 .contacts__title {
   position: relative;
 }
@@ -369,7 +366,6 @@ a.projects-item__link {
   font-size: 60px;
   font-weight: 400;
   line-height: 60px;
-  letter-spacing: -0.03em;
   text-align: left;
   text-decoration: none;
   color: #121212;
